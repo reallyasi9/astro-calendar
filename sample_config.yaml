@@ -1,0 +1,6 @@
+location:
+        lat: 42.3583  # in degrees N
+        lon: -71.0603 # in degrees E
+        alt: 10 # in meters
+
+timezone: "US/Eastern" # something pytz recognizes
