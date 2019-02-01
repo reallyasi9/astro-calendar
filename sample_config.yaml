@@ -1,6 +1,10 @@
-location:
-        lat: 42.3583  # in degrees N
-        lon: -71.0603 # in degrees E
-        alt: 10 # in meters
+ephemeris: de435.bsp  # should probably leave this alone unless you have a good reason to use something else
 
-timezone: "US/Eastern" # something pytz recognizes
+year: 2019  # year of the calendar
+
+location:
+        lat:  42.3583  # in degrees N
+        lon: -71.0603  # in degrees E
+        alt:  10       # in meters
+
+timezone: "US/Eastern"  # something pytz recognizes
